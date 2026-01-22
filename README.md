@@ -2,7 +2,7 @@
 
 ## OVERVIEW
 
-This coding challenge is to build a simple react app with Typescript (optional), integrated with GraphQL APIs.
+This coding challenge is to build a simple react app with Typescript, integrated with GraphQL APIs.
 
 ## HIGH LEVEL REQUIREMENTS
 
@@ -16,19 +16,24 @@ Please refer to - [zeller-customers-design.png](zeller-customers-design.png) for
 
 ## RECOMMENDATIONS
 
-1. Use ‘Create React App’ (for Typescript) for the project setup. No need to set the project up from the scratch.
-2. Use a familiar UI library such as Styled-Components if required. No need to be pixel perfect with the design.
-3. GraphQL APIs are hosted in AWS. Use the attached `aws-exports.js` file for configurations. Authentication type is API-KEY. Please replace `<API_KEY>` in `aws-exports.js` with the actual API key provided.
+1. Use [create vite](https://www.npmjs.com/package/create-vite) with `react-ts` template for the project setup.
+2. Use tailwindcss or styled-components if required.
+3. GraphQL APIs are hosted in AWS. Use the attached `aws-exports.js` file for configurations. Authentication type is API-KEY.
+Please replace `<API_KEY>` in `aws-exports.js` with the actual API key provided.
 4. Refer attached [graphql/queries.ts](graphql/queries.ts) for queries.
 
-## ZELLER CHECKLIST
+## ZELLER SUCCESS CRITERIA
 
-1. Proper test coverage
-2. Best practises for performance optimisation
-3. Code quality
-4. UI Quality and Responsiveness
-5. Documentation describing the approach and setup.
-   
+1. **Code Quality** – Clean, readable, and maintainable code following best practices.
+2. **UI Quality & Responsiveness** – Polished interface with seamless adaptability across devices and screen sizes.
+3. **Test Coverage** – Comprehensive unit and integration tests ensuring code reliability.
+4. **TypeScript Adherence** – Strict and consistent type definitions throughout the codebase without using `any` types.
+5. **Accessibility (a11y)** – Compliance with accessibility standards to support all users.
+6. **Error Handling & Loading States** – Graceful error handling and intuitive loading indicators.
+7. **Project Architecture** – Well-organized folder structure with modular, reusable components.
+8. **Performance Optimization** – Efficient data fetching, minimal re-renders.
+9. **Documentation** – Clear and thorough documentation outlining the approach and setup instructions.
+
 ## RESOURCES PROVIDED
 
 1. Design for the required screen --  [zeller-customers-design.png](/zeller-customers-design.png).
